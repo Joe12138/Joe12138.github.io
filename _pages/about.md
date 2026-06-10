@@ -10,262 +10,126 @@ redirect_from:
   - /about.html
 ---
 <style>
-  .cv-table { border: none; border-spacing: 0; border-collapse: collapse; margin: 10px 0; width: 100%; } /* 简历列表表格通用样式 */
-  .cv-table td { vertical-align: top; padding-bottom: 8px; } /* 单元格样式：顶部对齐，底部内边距(条目间距) */
-  .cv-date { width: 1%; white-space: nowrap; padding-right: 20px; font-style: italic; color: #555; } /* 时间列样式：不换行、斜体、右边距 */
-  .highlight { color: #ff9933; font-weight: bold; } /* 名字高亮样式 */
-  .img-center { display: block; margin: 60px auto 0; width: 50%; } /* 底部图片居中样式 */
-  .anchor { display: block; position: relative; top: -50px; visibility: hidden; } /* 锚点定位偏移（防止被导航栏遮挡） */
+  .cv-table { border: none; border-spacing: 0; border-collapse: collapse; margin: 10px 0; width: 100%; }
+  .cv-table td { vertical-align: top; padding-bottom: 8px; }
+  .cv-date { width: 1%; white-space: nowrap; padding-right: 20px; font-style: italic; color: #555; }
+  .highlight { color: #ff9933; font-weight: bold; }
+  .anchor { display: block; position: relative; top: -50px; visibility: hidden; }
 </style>
-
-
-
 
 <span class='anchor' id='about-me'></span>
 
+本人现为**南方科技大学**计算机科学与工程系**博士研究生**，研究方向包括**智能交通与自动驾驶**、**进化计算**，以及**场景生成与轨迹预测**。当前主要研究兴趣如下：
 
-
-
-
-
-
-
-
-
-
-
-长期从事 **AI for Science领域 分子设计方向**  的研究工作。针对分子设计难度大、成本高、周期长的瓶颈，开展AI驱动的小分子/多肽/蛋白/小核酸从头设计，重点研究“专家智慧+通用AI+专用AI+湿实验机器人”四位一体协作分子设计理论，构建全链条干湿闭环智能分子设计平台，以期显著提升分子设计成功率和效率，相关工作已以主要作者身份发表于[Nature Machine Intelligence](https://www.nature.com/articles/s42256-022-00501-8)、Advanced Science等期刊。目前研究兴趣包括:  
-
-- AI基础研究：智能体与群体智能、图数据处理与图学习  
-- AI for Science研究：小分子/多肽/蛋白/小核酸/材料从头生成设计、农药信息学与智慧农药创制
-
-**交流ing**：非常希望跟各位专家和同学建立联系，碰撞新思想和合作(微信yvquanli)。  
-
-**收稿ing**：欢迎联系本人投稿至TIDD/Innovation/Exploration/iMeta期刊，高质量稿件将推荐优先送审。  
-
-[**招生ing**](https://www.xiaohongshu.com/discovery/item/68f60c6f0000000004013c00)：硕博/联培/实习招募中。承诺永不抢一作不骂人不无端卡毕业，开学入门培训，全程精细指导，丰富计算资源，帮助每位同学产出一篇一作一区/A会论文，优秀者全力支持发子刊。（贵大大数据实验室/计算机学院复试尚未结束，考研同学切勿联系本人）   
+- 大规模复杂容量约束车辆路径规划问题
+- 自动驾驶场景生成与车辆轨迹预测
+- 可控多模态车辆运动行为生成
+- 自动驾驶场景与预测模型的协同进化
 
 <span class='anchor' id='educations'></span>
 
 # 🎓 教育经历
-<table class="cv-table"><tr><td class="cv-date">      
-      2019.9&ensp; - 2024.6<br>
-      2015.9&ensp; - 2019.6
+
+<table class="cv-table"><tr><td class="cv-date">
+      2023 - 至今<br>
+      2020 - 2023<br>
+      2016 - 2020
     </td><td>
-      硕博 - 兰州大学，化学化工学院(专业：化学信息学，导师：<a href="https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php">姚小军教授</a>)<br>
-      本科 - 青海大学，计算机学院(专业：计算机科学与技术)
+      博士研究生 - 智能制造与机器人，南方科技大学<br>
+      硕士研究生 - 电子科学与技术，南方科技大学<br>
+      本科 - 计算机科学与技术，南方科技大学
     </td></tr>
 </table>
 
-<span class='anchor' id='jobs'></span>  
-
-# 🧑‍💻 工作经历
-<table class="cv-table"><tr><td class="cv-date">      
-      2024.10 - 今<br>
-      2024.10 - 今<br>
-      2022.7&ensp; - 2023.4<br>
-      2020.8&ensp; - 2022.6<br>
-    </td><td>
-      <a href="https://pbd.gzu.edu.cn/2024/1122/c17349a242836/page.htm">贵州大学 公共大数据国家重点实验室/计算机科学与技术学院</a>，特聘教授<br>
-      <a href="https://cs.gzu.edu.cn/16246/list.htm">贵州大学 绿色农药全国重点实验室</a>，流动研究人员 <br>
-      <a href="https://www.baai.ac.cn/">北京智源人工智能研究院</a> <a href="https://bigaidream.github.io/">付杰团队</a>，研究实习<br>
-      <a href="htps://quantum.tencent.com/">腾讯公司 量子实验室</a>，联合培养(合作导师：<a href="https://person.zju.edu.cn/changyuhsieh">谢昌谕博士</a>)<br>
-    </td></tr>
-</table>
-
-<span class='anchor' id='jobs2'></span>    
-
-# 🏛️ 学术兼职
-<table class="cv-table"><tr><td class="cv-date">  
-      2026.5 &ensp;- 今<br>
-      2026.1 &ensp;- 今<br>
-      2025.8 &ensp;- 今<br>
-      2025.8 &ensp;- 今<br>
-      2024.9 &ensp;- 今<br>
-      2024.8 &ensp;- 今<br>
-      2026.1<br>
-      2025.1、2025.8<br>
-    </td><td>
-      中国生物信息学学会农林信息学专业委员会，青年委员<br>
-      《<a href="https://www.the-innovation.org/drugdiscovery">The Innovation Drug Discovery</a>》(目标IF 25~30)，创刊筹委、执行编委(青年试用)<br>
-      《<a href="https://www.cell.com/the-innovation/home">The Innovation</a>》期刊(综合一区 IF=25.7)，青年编委<br>
-      《<a href="https://onlinelibrary.wiley.com/journal/2770596x">iMeta</a>》期刊(生物一区 IF=33.2)，青年编委<br>
-      《<a href="https://onlinelibrary.wiley.com/journal/27662098">Exploration</a>》期刊(综合一区 IF=22.5)，青年编委、青委会植物学部副主任<br>
-      中斯茶叶绿色防控一带一路国际联合实验室， 创始建设参与<br>
-      第六届国际绿色植保技术创新会议，组委会<br>
-      贵州省大数据局项目人工智能产业方向评审专家组，组长<br>
-    </td></tr>
-</table>
-
-
-
-
-<span class='anchor' id='projects'></span>  
+<span class='anchor' id='projects'></span>
 
 # 📑 科研项目
-[1]国家数据局数据集先行先试项目,全国作物病虫草-农药多模态植物保护数据集,2026,课题负责人  
-[2]国家自然科学基金地区项目,基于人工智能的麦田蚜虫RNAi基因挖掘及RNAi农药设计,32万,2026,主持  
-[3]贵州大学人才引进特岗项目,多约束小分子生成设计新方法研究,40万,2024,主持  
 
+### 大规模复杂容量约束车辆路径规划问题
 
+- 基于真实世界数据集，我们将该问题建模为具有多个停车场、多个卸货点以及多次行程的容量约束车辆路径问题，并采用两阶段算法进行求解：第一阶段提出基于贪心策略的初始解生成算法；第二阶段使用包含自定义搜索算子的模因算法对初始解进一步优化。
 
-<span class='anchor' id='people'></span>  
+### 车辆轨迹预测问题
 
-# 👥 团队成员
+- 在高度交互的自动驾驶场景中，我们利用神经网络从高精度地图提供的语义信息（如交通规则）中提取特征，并在交通规则约束下预测自车周围其他车辆的行驶轨迹。
 
-<table class="cv-table"><tr>  
-    <td style="vertical-align:top; width:33%;">
-      <b>名下指导</b>  <br>
-      <a href="mailto:2509362787@qq.com">蒋俞萱</a>,25硕,RNA小分子抑制剂<br>
-      <a href="mailto:2396081899@qq.com">陈维迅</a>,25硕,智能体分子设计<br>
-    </td>
-    <td style="vertical-align:top; width:33%;">
-      <b>联培博士</b><br>
-      <a href="mailto:dongxinyu@samlab.cn">董新宇</a>¹,24博,多目标分子生成<br>
-      <a href="mailto:h397465119@163.com">黄广义</a>¹,24博,AI靶标发现<br>
-      <a href="mailto:p2412771@mpu.edu.mo">徐楷</a>²,&emsp;24博,靶向分子生成<br>
-      <a href="mailto:sereinnario@gmail.com">何牧天</a>²,25博,大分子药物<br>
-      <a href="mailto:p2521371@mpu.edu.mo">王世航</a>²,25博,细胞表型学习<br>
-      <a href="mailto:gong-dh@foxmail.com">龚道宏</a>²,25博,靶向蛋白降解设计<br> 
-      <a href="mailto:1460167652@qq.com">崔金煜</a>³,25博,多肽及递送设计<br> 
-      <a href="mailto:shuangy.th@gmail.com">唐胡双寅</a>²,26博,递送系统<br>
-    </td>
-    <td style="vertical-align:top; width:33%;">
-      <b>联培硕士</b><br>
-      <a href="mailto:2118116004@qq.com">周军</a>¹,&emsp;24硕,合成规划<br>
-      <a href="mailto:3331231706@qq.com">朱磊</a>³,&emsp;24硕,抗菌肽设计<br>
-      <a href="mailto:3156785727@qq.com">谢朝阳</a>⁴,23硕,分子性质预测<br>
-      <br><b>毕业成员</b><br>
-      <a href="mailto:3272282882@qq.com">洪晖阳</a>, 22本,已前往侯廷军教授组<br>  
-    </td></tr>
-</table>
+### 驾驶场景生成
 
+- 我们开发了一种经济高效的自动驾驶场景生成方法，能够从零开始生成包含多样化道路网络、交通规则、路边结构以及动态交通流的驾驶场景，并在多个主流仿真器中验证了其有效性与效率。
 
-深度合作导师：[郝格非¹](https://gpabl.gzu.edu.cn/2023/0807/c18863a195026/page.htm)、[姚小军²](https://www.mpu.edu.mo/esca/zh/yaoxiaojun.php)、[杨文超³](https://pmc.gzu.edu.cn/2025/1104/c23019a260269/page.htm)、联培导师⁴  
-深度合作伙伴：[王晓瑞](https://scholar.google.com/citations?hl=zh-CN&user=uyN1Gf4AAAAJ)，深圳理工大学合成生物学院，特聘副教授，研究方向为AI合成规划  
+### 可控多模态车辆运动行为生成
 
+- 我们提出了一种兼具可控性与多模态性的车辆运动行为生成框架，包含初始车辆位置生成、可控多模态轨迹候选生成以及轨迹选择三个核心模块。实验结果表明，该方法在保持良好可控性与多模态性的同时，具有较强的泛化能力。
 
+### 交互式驾驶场景生成平台
 
+- 我们开发了交互式驾驶场景生成平台，支持用户在细粒度层面生成并可视化多样化驾驶场景，涵盖道路网络与运动轨迹。
 
+### 自动驾驶场景与预测模型的协同进化
 
-
-
-
-
-
-
-
+- 由于真实世界数据有限，难以充分反映交通环境的复杂性，我们旨在通过驾驶场景的自动生成与预测模型的协同进化，提升轨迹预测模型的性能与鲁棒性。
 
 <span class='anchor' id='publications'></span>
 
-
-
 # 📝 学术论文
-**[1]** **Li** et al. An adaptive graph learning method for automated molecular interactions and properties predictions. `Nature Machine Intelligence IF=23.8`<sup>▴</sup>
-[[HTML]](https://www.nature.com/articles/s42256-022-00501-8) [[PDF]](/pdf/paper_2022a.pdf)  
 
-**[2]** **Li** et al. Introducing block design in graph neural networks for molecular properties prediction. `Chemical Engineering Journal IF=16.7`<sup>▴</sup>
-[[HTML]](https://doi.org/10.1016/j.cej.2021.128817) [[PDF]](/pdf/paper_2021a.pdf)  
+\* 同等贡献
 
-**[3]** **Li\*** et al. Spectral decomposition of chemical semantics for activity cliffs-aware molecular property prediction. `Advanced Science IF=14.1`<sup>▴</sup>
-[[HTML]](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202517579)  [[PDF]](https://advanced.onlinelibrary.wiley.com/doi/epdf/10.1002/advs.202517579)
+## 期刊论文
 
-**[4]** **Li<sup>†</sup>** et al. TrimNet: learning molecular representation from triplet messages for biomedicine. `Briefings in Bioinformatics IF=13.9`<sup>▴</sup>
-[[HTML]]( https://doi.org/10.1093/bib/bbaa266) [[PDF]](/pdf/paper_2021c.pdf)  
+**[1]** **<span class="highlight">W. Lan</span>**\*, Z. Ye\*, P. Ruan\*, J. Liu, P. Yang and X. Yao, "Region-Focused Memetic Algorithms With Smart Initialization for Real-World Large-Scale Waste Collection Problems," `IEEE Transactions on Evolutionary Computation`, vol. 26, no. 4, pp. 704-718, Aug. 2022. [[Paper]](https://ieeexplore.ieee.org/document/9594087) [[Code]](https://github.com/SUSTechGameAI/M3CVRP)
 
-**[5]** **Li<sup>†</sup>** et al. RetroPrime: A Diverse, plausible and Transformer-based method for Single-Step retrosynthesis predictions. `Chemical Engineering Journal IF=16.7`<sup>▴</sup>
-[[HTML]](https://doi.org/10.1016/j.cej.2021.129845) [[PDF]](/pdf/paper_2021b.pdf)  
+**[2]** **<span class="highlight">W. Lan</span>**, D. Li, Q. Hao, D. Zhao and B. Tian, "Implicit Scene Context-Aware Interactive Trajectory Prediction for Autonomous Driving," `IEEE Transactions on Intelligent Vehicles`, vol. 9, no. 9, pp. 5461-5477, Sept. 2024. [[Paper]](https://ieeexplore.ieee.org/document/10356826) [[Code]](https://github.com/Joe12138/PRISC-Net-V1)
 
-**\***通讯  **<sup>†</sup>**共一  <sup>▴</sup>发表当年IF  
-一定程度代表该刊当年认可度及发表难度，~~主要是懒得年年更新最新IF~~  
+**[3]** **<span class="highlight">W. Lan</span>**, J. Liu, B. Yuan, and X. Yao, "AutoSceCraft: Generate Various Driving Scenarios from Scratch for Autonomous Driving Systems," `Tsinghua Science and Technology`, 2025 (Accepted). [[Paper]](https://www.sciopen.com/article/10.26599/TST.2025.9010045)
 
-<!-- [[内容介绍-GLAM]](#research_project_3) 
-[[媒体分享-AItellU]](https://zhuanlan.zhihu.com/p/587238348) [[-DrugAI]](https://zhuanlan.zhihu.com/p/533498924) [[③-ScienceAI]](https://mp.weixin.qq.com/s/WNEBqxIszWNrR8tRf118Cg)[[④-ADNLab]](https://mp.weixin.qq.com/s/jpjawahwfIurLTlW6DcBUA)   [[⑤-ComputArt]](https://mp.weixin.qq.com/s/0eFKuVyZGirULmDfNJhCqA)  [[⑥-今日新材料]](https://mp.weixin.qq.com/s/9IRcRQ8lGc8v5q6Kk7EWyQ)  [[⑦-智能生信]](https://mp.weixin.qq.com/s/ppGBD7mxHcY7ptih4_T-4Q) [[⑧-智药局 回顾！AI辅助药物研发领域的32篇重磅论文]](https://mp.weixin.qq.com/s/BgM828sCB2njBv01MH0DYw) 
-[[内容介绍-BGNN]](#research_project_1) 
-[[内容介绍-TrimNet]](#research_project_2) [[媒体分享-智能生信]](https://mp.weixin.qq.com/s/yRvkCi8zx5Qfyf4zj0nt4Q)
-[[媒体分享-智药邦]](https://mp.weixin.qq.com/s/PG-nMMH6NYVj3Mc8Lzbb9g) -->
+**[4]** **<span class="highlight">W. Lan</span>**, J. Liu, B. Yuan, and X. Yao, "Controllable Multimodal Motion Behavior Generation for Autonomous Driving," `IEEE Transactions on Intelligent Transportation Systems`, 2025 (Accepted). [[Code]](https://github.com/Joe12138/CoMoGen-V1)
 
-### 所有论文
+## 会议论文
 
-#### 2026年度
-- **[2026b]** Chaoyang Xie, Junhu Xu, Guangyi Huang, Shihang Wang, Mutian He, Xinyu Dong, Huiyang Hong, Xiaojun Yao, Qi Wang*, **<font color="#ff9933">Yuquan Li*</font>**. Spectral decomposition of chemical semantics for activity cliffs-aware molecular property prediction[J]. `Advanced Science`, 2026: e17579. [[HTML]](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202517579)  [[PDF]](https://advanced.onlinelibrary.wiley.com/doi/epdf/10.1002/advs.202517579)
-- **[2026a]** Huiyang Hong, Xinkai Wu, Hongyu Sun, Chaoyang Xie, Qi Wang*, **<font color="#ff9933">Yuquan Li*</font>**. Learning hierarchical interaction for accurate molecular property prediction[J]. `Communications Chemistry`,2026. [[HTML]](https://www.nature.com/articles/s42004-026-01922-x)  [[PDF]](https://www.nature.com/articles/s42004-026-01922-x_reference.pdf)
+**[1]** L. Ding, D. Li, B.n Liu, **<span class="highlight">W. Lan</span>**, B. Bai, Q. Hao, W. Cao, and K. Pei, "Capture Uncertainties in Deep Neural Networks for Safe Operation of Autonomous Driving Vehicles," `2021 IEEE ISPA/BDCloud/SocialCom/SustainCom`, New York City, NY, USA, 2021. [[Paper]](https://ieeexplore.ieee.org/document/9644766)
 
+## 专利
 
-#### 2025年度
+**[5]** **<span class="highlight">W. Lan</span>**, Z. Ye, P. Ruan, J. Liu, and X. Yao, 车辆路径规划方法、装置、设备及存储介质, 专利号: ZL 2021 1 0012924.3, 2021.
 
-- **[2025c]** Yanan Tian, Ruiqiang Lu, Xiaoqing Gong, **<font color="#ff9933">Yuquan Li</font>**, Wei Zhao, Xiaorui, Wang, Xinming Jia, Qin Li, Yuwei Yang, Henry H. Y. Tong, Joel P. Arrais\*, Huanxiang Liu\*, Xiaojun Yao\*. Enhancing Kinase-Inhibitor Activity and Selectivity Prediction Through Multimodal and Multiscale Contrastive Learning with Attention Consistency[J]. `Nature Communications`,2025,16:10860. [[HTML]](https://www.nature.com/articles/s41467-025-65869-8)  [[PDF]](https://www.nature.com/articles/s41467-025-65869-8.pdf)
-- **[2025b]** Xiaorui Wang†, Xiaodan Yin†, Xujun Zhang†, Huifeng Zhao, Shukai Gu, Zhenxing Wu, Odin Zhang, Wenjia Qian, Yuansheng Huang, **<font color="#ff9933">Yuquan Li</font>**, Dejun Jiang, Mingyang Wang, Huanxiang Liu, Xiaojun Yao\*, Chang-Yu Hsieh\*, Tingjun Hou\*. A virtual platform for automated hybrid organic-enzymatic synthesis planning[J]. `Nature Communications`,2025,16:10929. [[HTML]](https://www.nature.com/articles/s41467-025-65898-3)  [[PDF]](https://www.nature.com/articles/s41467-025-65898-3_reference.pdf)
-- **[2025a]** Zhenglu Chen, Chunbin Gu\*, Shuoyan Tan, Xiaorui Wang, **<font color="#ff9933">Yuquan Li</font>**, Mutian He, Ruiqiang Lu, Shijia Sun, Chang-Yu Hsieh\*, Xiaojun Yao\*, Huanxiang Liu\*, Pheng-Ann Heng. Interpretable PROTAC Degradation Prediction With Structure-Informed Deep Ternary Attention Framework[J]. `Advanced Science`, 2025. [[HTML]](https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/advs.202508138)  [[PDF]](https://advanced.onlinelibrary.wiley.com/doi/epdf/10.1002/advs.202508138)
+<span class='anchor' id='teaching'></span>
 
-#### 2024年度
+# 🧑‍🏫 教学
 
-- **[2024a]** Xiaorui Wang, Xiaodan Yin, Dejun Jiang, Huifeng Zhao, Zhenxing Wu, Odin Zhang, Jike Wang, **<font color="#ff9933">Yuquan Li</font>**, Yafeng Deng, Huanxiang Liu, Pei Luo, Yuqiang Han, Tingjun Hou\*, Xiaojun Yao\*, Chang-Yu Hsieh\*. Multi-modal deep learning enables efficient and accurate annotation of enzymatic active sites[J]. `Nature Communications`, 2024, 15(1): 7348. [[HTML]](https://www.nature.com/articles/s41467-024-51511-6#citeas)  [[PDF]](https://www.nature.com/articles/s41467-024-51511-6.pdf)  
-
-#### 2023年度
-
-- **[2023a]** Xiaorui Wang†, Chang-Yu Hsieh†, Xiaodan Yin, Jike Wang, **<font color="#ff9933">Yuquan Li</font>**, Yafeng Deng, Dejun Jiang, Zhenxing Wu, Hongyan Du, Hongming Chen, Yun Li, Huanxiang Liu, Yuwei Wang, Pei Luo, Tingjun Hou\*, Xiaojun Yao\*. Generic Interpretable Reaction Condition Predictions with Open Reaction Condition Datasets and Unsupervised Learning of Reaction Center[J]. `Research`, 2023, 6: 0231. [[HTML]](https://doi.org/10.1101/2023.08.01.551396) [[PDF]](/pdf/paper_2023b.pdf)  
-
-#### 2022年度
-
-- **[2022a]** **<font color="#ff9933">Yuquan Li†</font>**, Chang-Yu Hsieh†, Ruiqiang Lu, Xiaoqing Gong, Xiaorui Wang, Pengyong Li, Shuo Liu, Yanan Tian, Dejun Jiang, Jiaxian Yan, Qifeng Bai, Huanxiang Liu, Shengyu Zhang , Xiaojun Yao\*. An adaptive graph learning method for automated molecular interactions and properties predictions[J]. `Nature Machine Intelligence`, 2022, 4(7):645-651. [[HTML]](https://www.nature.com/articles/s42256-022-00501-8) [[PDF]](/pdf/paper_2022a.pdf)  
-
-#### 2021年度
-
-- **[2021c]** Pengyong Li†, **<font color="#ff9933">Yuquan Li†</font>**, Chang-Yu Hsieh, Shengyu Zhang, Xianggen Liu, Huanxiang Liu, Sen Song\*, Xiaojun Yao\*. TrimNet: learning molecular representation from triplet messages for biomedicine[J]. `Briefings in Bioinformatics`, 2021, 22(4): bbaa266.[[HTML]]( https://doi.org/10.1093/bib/bbaa266) [[PDF]](/pdf/paper_2021c.pdf)  
-- **[2021b]** Xiaorui Wang†, **<font color="#ff9933">Yuquan Li†</font>**, Jiezhong Qiu, Guangyong Chen, Huanxiang Liu, Benben Liao\*, Chang-Yu Hsieh\*, Xiaojun Yao\*. RetroPrime: A Diverse, plausible and Transformer-based method for Single-Step retrosynthesis predictions[J]. `Chemical Engineering Journal`, 2021, 420: 129845. [[HTML]](https://doi.org/10.1016/j.cej.2021.129845) [[PDF]](/pdf/paper_2021b.pdf)  
-- **[2021a]** **<font color="#ff9933">Yuquan Li</font>**, Pengyong Li, Xing Yang, Chang-Yu Hsieh, Shengyu Zhang, Xiaorui Wang, Ruiqiang Lu, Huanxiang Liu, Xiaojun Yao\*. Introducing block design in graph neural networks for molecular properties prediction[J]. `Chemical Engineering Journal`, 2021, 414: 128817. [[HTML]](https://doi.org/10.1016/j.cej.2021.128817) [[PDF]](/pdf/paper_2021a.pdf)  
-
-
-
-<span class='anchor' id='others'></span>
-
-
-<span class='anchor' id='award'></span>
-
-# 🌟 奖项荣誉
-<table class="cv-table"><tr><td class="cv-date">       
-      2025.9<br>
-      2024.10<br>
+<table class="cv-table"><tr><td class="cv-date">
+      2024 秋季<br>
+      2024/2025 春季<br>
+      2023 秋季<br>
+      2021/2022 春季
     </td><td>
-      《<a href="https://onlinelibrary.wiley.com/journal/27662098">Exploration</a>》期刊  2025年度杰出青年编委奖<br>
-      贵州大学一流学科建设特别引进人才<br>
+      Python，助教<br>
+      C/C++ 程序设计，助教<br>
+      计算机编程入门，助教<br>
+      离散数学，助教
     </td></tr>
 </table>
 
-# 🏛️ 学术活动
-<table class="cv-table"><tr><td class="cv-date">      
-      2026.5<br>
-      2026.3<br>
-      2026.1<br>
-      2026.1<br>
-      2025.11<br>
-      2025.10<br>
-      2023.3<br>
-      会员<br>
-      审稿<br>
+<span class='anchor' id='grants'></span>
 
+# 🏆 资助与荣誉
+
+<table class="cv-table"><tr><td class="cv-date">
+      2025
     </td><td>
-      The Innovation Drug Discovery 青年编委会<br>
-      The Innovation期刊青年编委会<br>
-      Exploration首届植物科学国际研讨会，负责人<br>
-      <a href="https://mp.weixin.qq.com/s/jfDh0Ahga9-DJ-5DdhlCZw">第六届国际绿色植保技术创新会议</a>，报告题目：AI驱动的必须基因挖掘与RNAi农药设计<br>
-      <a href="https://zwbhxy.yzu.edu.cn/info/1077/3523.htm">扬州大学，保绿兴农学术大讲堂</a>，报告题目：人工智能辅助农药设计<br>
-      <a href="https://cimc2024.casconf.cn/static/1902608504397631488/pages/file/ca97cafdda2a4595b2b4fc45c61868af.pdf">第十四届全国生物信息学与系统生物学学术大会</a>，报告题目：多目标梯度引导分子生成<br>
-      <a href="https://chem.lzu.edu.cn/index.php?m=content&c=index&a=show&catid=77&id=9441">兰州大学第十五届研究生学术年会</a>，报告题目：化学×AI，现在与未来<br>
-      中国植保学会、中国人工智能学会、中国计算机学会、中国化学会等<br>
-      iMeta、Nature Communications、Plant Nano Biology、iMetaOmics、iMetaMed、Briefings in Bioinformatics等<br>
+      IEEE 计算智能学会（CIS）研究生研究资助（2025 年全球仅 11 人获奖）
     </td></tr>
 </table>
 
+<span class='anchor' id='skills'></span>
 
+# 💻 技能
 
-# 🙌 其他
-大乱斗，War3 RPG/RTS，DNF  
-传世烧火棍*5 拥有者  
-我清楚的知道，人与人之间的道路是不可复制的，我躺在我自己的床上。  
-世界一流底刊[《Silence》](https://journals.panorama-sg.com/index.php/Silence) 期刊副主编(Associate Editor, AE)  
-世界一流底刊[《Call》](https://callpress.org/index.php/call/editorial) 期刊副主编(Associate Editor, AE)  
-
-
-
+<table class="cv-table"><tr><td class="cv-date">
+      编程语言<br>
+      深度学习
+    </td><td>
+      Python, C/C++, Java, Matlab<br>
+      PyTorch
+    </td></tr>
+</table>

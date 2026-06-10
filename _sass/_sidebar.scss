@@ -237,6 +237,11 @@
     white-space: nowrap;
   }
 
+  li.author__employer {
+    white-space: normal;
+    line-height: 1.4;
+  }
+
   a {
     display: block;
     margin-bottom: 5px;

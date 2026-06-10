@@ -6,41 +6,33 @@ main:
   - title: "教育经历"
     url: "/#educations"
 
-  - title: "工作经历"
-    url: "/#jobs"
-
-  - title: "学术兼职"
-    url: "/#jobs2"
-
   - title: "科研项目"
     url: "/#projects"
-
-  - title: "团队成员"
-    url: "/#people"
 
   - title: "学术论文"
     url: "/#publications"
 
-  # - title: "学术活动"
-  #   url: "/#activity"
+  - title: "教学"
+    url: "/#teaching"
 
-  - title: "其他"
-    url: "/#others"
+  - title: "资助"
+    url: "/#grants"
+
+  - title: "技能"
+    url: "/#skills"
 
 main_en:
   - title: "About"
     url: "/en/#about-me"
   - title: "Education"
     url: "/en/#educations"
-  - title: "Experience"
-    url: "/en/#jobs"
-  - title: "Service"
-    url: "/en/#jobs2"
   - title: "Projects"
     url: "/en/#projects"
-  - title: "Team"
-    url: "/en/#people"
   - title: "Publications"
     url: "/en/#publications"
-  - title: "Others"
-    url: "/en/#other"
+  - title: "Teaching"
+    url: "/en/#teaching"
+  - title: "Grants"
+    url: "/en/#grants"
+  - title: "Skills"
+    url: "/en/#skills"

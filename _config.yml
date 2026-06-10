@@ -6,60 +6,60 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "黎育权"
-description              : "贵州大学"
-repository               : "yvquanli/yvquanli.github.io"
-url                      : "https://yuquan.li"
+title                    : "蓝文兴"
+description              : "南方科技大学 · 计算机科学与工程系"
+repository               : "Joe12138/Joe12138.github.io"
+url                      : "https://joe12138.github.io"
 google_scholar_stats_use_cdn : false
 
 # google analytics
-google_analytics_id      :  G-WRDS6KHG7Y # get google_analytics_id from https://analytics.google.com/analytics/
+google_analytics_id      : # get google_analytics_id from https://analytics.google.com/analytics/
 
 # SEO Related
-google_site_verification :  pPZ67a7tG0zcxZ8SyEdNuiErWb9R-wTIHpG-4X3xxhc # get google_site_verification from https://search.google.com/search-console/about
-bing_site_verification   :  B844D40EAEFC38971DFA16E71913045F # get bing_site_verification from https://www.bing.com/webmasters/about
-baidu_site_verification  :  codeva-J3gpkCZkVY # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
+google_site_verification :
+bing_site_verification   :
+baidu_site_verification  :
 
 # Site Author
 author:
-  name             : "黎育权"
-  avatar           : "/images/android-chrome-512x512.png"
+  name             : "蓝文兴"
+  avatar           : "/images/profile.png"
 
-  bio              : "特聘教授"
-  location         : "贵阳市花溪区"
-  employer         : # "贵州大学"
-  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=Yuquan+Li"
-  googlescholar    : "https://scholar.google.com/citations?user=lCJi22EAAAAJ"
-  email            : "yvquan.li@gzu.edu.cn"
-  researchgate     : "https://www.researchgate.net/profile/Yuquan-Li-3"
+  bio              : "博士研究生"
+  location         : "深圳"
+  employer         : "南方科技大学"
+  pubmed           :
+  googlescholar    : "https://scholar.google.com/citations?user=qODceMEAAAAJ"
+  email            : "12331255@mail.sustech.edu.cn"
+  researchgate     :
   uri              :
-  bitbucket        : 
+  bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : "yvquanli"
+  github           : "Joe12138"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      :
   lastfm           :
-  linkedin         : # e.g., "linkedin username"
-  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : "https://orcid.org/0000-0003-2756-0449"
+  linkedin         :
+  dblp             :
+  orcid            :
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    :
   steam            :
   tumblr           :
-  twitter          : # "https://twitter.com/yvquanli"
+  twitter          :
   vine             :
   weibo            :
-  xing             : # "Wechat: yvquanli"
+  xing             :
   youtube          :
   wikipedia        :
-  wechat           : # "https://github.com/yvquanli"
+  wechat           :
 
 
 # Reading Files
@@ -164,4 +164,3 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
