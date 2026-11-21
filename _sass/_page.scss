@@ -49,21 +49,18 @@
 }
 
 .page__content {
-  #about-me{
-    margin-top: -10em;
-      &:before { 
-        content: ''; 
-        display: block; 
-        position: relative; 
-        width: 0; 
-        height: 10em; 
-        margin-top: -10em;
-    }
-  }
-  h1 {
-    margin-top: 1em;
+  h1, h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
+    scroll-margin-top: 4rem;
+  }
+
+  h1 {
+    margin-top: 0;
+  }
+
+  h2 {
+    margin-top: 1.75em;
   }
 
   p, li, dl {
@@ -411,9 +408,8 @@
   text-transform: uppercase;
 }
 
-.footer_site{
-  padding-top: 9em;
-  align-items: center;
+.footer_site {
+  padding-top: 3em;
 }
 .page_a {
   color: #224b8d;
@@ -426,11 +422,12 @@ hr {
   margin: auto;
 }
 
-.footer_copyright{
+.footer_copyright {
   font-family: $sans-serif-narrow;
-  margin-top: 0.5em;
-  margin-bottom: 1em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 0.5em 1em 1em;
+  text-align: center;
+}
+
+.footer_counter:has(span:empty) {
+  display: none;
 }

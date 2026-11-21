@@ -12,6 +12,11 @@ var $hlinks = $('#site-nav .hidden-links');
 
 var breaks = [];
 
+function setMenuOpen(open) {
+  $hlinks.toggleClass('hidden', !open);
+  $btn.toggleClass('close', open).attr('aria-expanded', String(open));
+}
+
 function updateNav() {
 
   var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
@@ -44,7 +49,7 @@ function updateNav() {
     // Hide the dropdown btn if hidden list is empty
     if(breaks.length < 1) {
       $btn.addClass('hidden');
-      $hlinks.addClass('hidden');
+      setMenuOpen(false);
     }
   }
 
@@ -65,8 +70,18 @@ $(window).resize(function() {
 });
 
 $btn.on('click', function() {
-  $hlinks.toggleClass('hidden');
-  $(this).toggleClass('close');
+  setMenuOpen($hlinks.hasClass('hidden'));
+});
+
+$nav.on('click', 'a', function() {
+  setMenuOpen(false);
+});
+
+$nav.on('keydown', function(event) {
+  if (event.key === 'Escape' && $btn.attr('aria-expanded') === 'true') {
+    setMenuOpen(false);
+    $btn.trigger('focus');
+  }
 });
 
 updateNav();

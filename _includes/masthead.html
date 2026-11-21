@@ -1,28 +1,30 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+      <nav id="site-nav" class="greedy-nav" aria-label="{% if page.lang == 'en' %}Main navigation{% else %}主导航{% endif %}">
+        <button type="button" aria-controls="site-nav-overflow" aria-expanded="false" aria-label="{% if page.lang == 'en' %}More navigation links{% else %}更多导航链接{% endif %}">
+          <span class="navicon" aria-hidden="true"></span>
+        </button>
         <ul class="visible-links">
           {% if page.lang == 'en' %}
             <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item">
-              <a href="/" target="_self">
-                <img class="svg" src="/images/cn.svg" width="20pt"> 中文</a>
+              <a href="/" lang="zh-CN" hreflang="zh-CN">
+                <img class="svg" src="/images/cn.svg" width="20" alt=""> 中文</a>
             </li>
             {% for link in site.data.navigation.main_en %}
-              <li class="masthead__menu-item"><a href="{{ link.url }}" target="_self">{{ link.title }}</a></li>
+              <li class="masthead__menu-item"><a href="{{ link.url }}">{{ link.title }}</a></li>
             {% endfor %}
           {% else %}
             <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item">
-              <a href="/en/" target="_self">
-                <img class="svg" src="/images/en.svg" width="20pt"> English</a>
+              <a href="/en/" lang="en" hreflang="en">
+                <img class="svg" src="/images/en.svg" width="20" alt=""> English</a>
             </li>
             {% for link in site.data.navigation.main %}
-              <li class="masthead__menu-item"><a href="{{ link.url }}" target="_self">{{ link.title }}</a></li>
+              <li class="masthead__menu-item"><a href="{{ link.url }}">{{ link.title }}</a></li>
             {% endfor %}
           {% endif %}
         </ul>
-        <ul class="hidden-links hidden"></ul>
+        <ul id="site-nav-overflow" class="hidden-links hidden"></ul>
       </nav>
     </div>
   </div>

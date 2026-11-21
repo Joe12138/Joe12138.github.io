@@ -26,6 +26,7 @@ author:
   avatar           : "/images/profile.png"
 
   bio              : "博士研究生"
+  department       : "计算机科学与工程系"
   location         : "深圳"
   employer         : "南方科技大学"
   pubmed           :
@@ -68,6 +69,7 @@ include:
   - _pages
   - files
 exclude:
+  - "_pages/about ti.md"
   - docs
   - google_scholar_crawler
   - "*.sublime-project"
@@ -156,11 +158,3 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-
-
-# HTML Compression
-# - http://jch.penibelst.de/
-compress_html:
-  clippings: all
-  ignore:
-    envs: development

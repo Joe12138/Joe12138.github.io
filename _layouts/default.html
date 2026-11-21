@@ -1,9 +1,5 @@
----
-layout: compress
----
-
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="{{ page.lang | default: 'zh-CN' | escape }}" class="no-js">
 
 <head>
   {% include head.html %}
@@ -15,13 +11,13 @@ layout: compress
   {% include browser-upgrade.html %}
   {% include masthead.html %}
 
-  <div id="main" role="main">
+  <main id="main">
     {% include sidebar.html %}
 
     <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
       {% if page.title %}
-      <meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{%
-      endif %}
+      <meta itemprop="headline" content="{{ page.title | escape }}">
+      {% endif %}
       <div class="page__inner-wrap">
         <section class="page__content" itemprop="text">
           {{ content }}
@@ -30,27 +26,19 @@ layout: compress
     </article>
 
 
-  </div>
+  </main>
 
   {% include scripts.html %}
 
-  <div class="footer_site">
-
+  <footer class="footer_site">
     <hr />
-    <div class="footer_copyright">
-      © 2023-2026 Wenxing Lan | Powered by the&nbsp
-      <a class="page_a" href="https://github.com/RayeRen/acad-homepage.github.io">
-        acad
-      </a>
-
-
-
-      <!-- https://qchaha.github.io/2018/09/19/homepageStatistics.html -->
-      <span id="busuanzi_container_site_pv"> | 本站总访问量 <span id="busuanzi_value_site_pv"></span>次</span>
-      <span id="busuanzi_container_site_uv"> / <span id="busuanzi_value_site_uv"></span>人</span>
-
-    </div>
-  </div>
+    <p class="footer_copyright">
+      © 2023–{{ site.time | date: '%Y' }} Wenxing Lan · Powered by
+      <a class="page_a" href="https://github.com/RayeRen/acad-homepage.github.io">acad</a>
+      <span class="footer_counter" id="busuanzi_container_site_pv"> · {% if page.lang == 'en' %}Views{% else %}访问量{% endif %} <span id="busuanzi_value_site_pv"></span></span>
+      <span class="footer_counter" id="busuanzi_container_site_uv"> · {% if page.lang == 'en' %}Visitors{% else %}访客数{% endif %} <span id="busuanzi_value_site_uv"></span></span>
+    </p>
+  </footer>
 
 </body>
 

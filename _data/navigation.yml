@@ -1,4 +1,3 @@
-# main links links
 main:
   - title: "简介"
     url: "/#about-me"
@@ -6,17 +5,23 @@ main:
   - title: "教育经历"
     url: "/#educations"
 
+  - title: "科研与工作"
+    url: "/#experience"
+
   - title: "科研项目"
     url: "/#projects"
 
   - title: "学术论文"
     url: "/#publications"
 
+  - title: "资助与荣誉"
+    url: "/#grants"
+
+  - title: "学术服务"
+    url: "/#service"
+
   - title: "教学"
     url: "/#teaching"
-
-  - title: "资助"
-    url: "/#grants"
 
   - title: "技能"
     url: "/#skills"
@@ -26,13 +31,17 @@ main_en:
     url: "/en/#about-me"
   - title: "Education"
     url: "/en/#educations"
+  - title: "Experience"
+    url: "/en/#experience"
   - title: "Projects"
     url: "/en/#projects"
   - title: "Publications"
     url: "/en/#publications"
+  - title: "Awards"
+    url: "/en/#grants"
+  - title: "Service"
+    url: "/en/#service"
   - title: "Teaching"
     url: "/en/#teaching"
-  - title: "Grants"
-    url: "/en/#grants"
   - title: "Skills"
     url: "/en/#skills"
