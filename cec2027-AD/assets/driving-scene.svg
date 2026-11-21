@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 560" role="img" aria-labelledby="driving-scene-title driving-scene-description">
+  <title id="driving-scene-title">Autonomous driving: perception, prediction, and planning</title>
+  <desc id="driving-scene-description">An illustrative bird’s-eye road scene. A cyan ego vehicle follows a planned route through a curved three-lane road, while perception boxes identify surrounding vehicles and dashed lines show their predicted trajectories. A vehicle approaches from a merging lane on the right.</desc>
+  <defs>
+    <pattern id="scene-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#afc7d3" stroke-opacity=".055" stroke-width=".6"/>
+    </pattern>
+    <clipPath id="scene-clip"><rect x="0" y="0" width="620" height="560" rx="6"/></clipPath>
+    <g id="scene-car">
+      <!-- All vehicles face the top of the drawing. -->
+      <rect x="-25" y="-26" width="7" height="17" rx="2" fill="#081b28"/>
+      <rect x="18" y="-26" width="7" height="17" rx="2" fill="#081b28"/>
+      <rect x="-25" y="21" width="7" height="16" rx="2" fill="#081b28"/>
+      <rect x="18" y="21" width="7" height="16" rx="2" fill="#081b28"/>
+      <path d="M-13-45Q-22-42-22-30V32Q-22 44-13 46H13Q22 44 22 32V-30Q22-42 13-45Z" fill="currentColor"/>
+      <path d="M-13-38H13M-18-6V22M18-6V22M-12 40H12" fill="none" stroke="#15303f" stroke-opacity=".48" stroke-width="1.1"/>
+      <path d="M-14-25Q0-30 14-25L12-12H-12Z" fill="#15303f"/>
+      <path d="M-12-8H12L14 19H-14Z" fill="#183441"/>
+      <path d="M-14 23H14L12 33H-12Z" fill="#15303f"/>
+      <path d="M-17-12-19-7V14L-17 19M17-12 19-7V14L17 19" fill="none" stroke="#15303f" stroke-width="1.6"/>
+      <path d="M-16-37H-9M9-37H16" stroke="#f7fff9" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M-17 37H-12M12 37H17" stroke="#b77562" stroke-width="2" stroke-linecap="round"/>
+      <path d="M-24-7-29-4M24-7 29-4" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <g clip-path="url(#scene-clip)">
+    <rect width="620" height="560" fill="url(#scene-grid)"/>
+    <!-- Road geometry remains visible when the three illustration layers are toggled. -->
+    <g class="scene-road">
+      <path d="M104 590C110 425 164 353 173 220C179 132 171 60 192-30H528C507 60 515 132 509 220C500 353 446 425 440 590Z" fill="#152f40"/>
+      <path d="M644 535C562 493 543 434 518 376C494 321 472 288 464 245L520 223C536 276 568 320 593 365C619 410 639 425 658 433Z" fill="#152f40"/>
+      <path d="M104 590C110 425 164 353 173 220C179 132 171 60 192-30" fill="none" stroke="#66828f" stroke-width="1.7"/>
+      <path d="M440 590C444 492 464 427 483 374M509 220C515 132 507 60 528-30" fill="none" stroke="#66828f" stroke-width="1.7"/>
+      <path d="M644 535C562 493 543 434 518 376C494 321 472 288 464 245" fill="none" stroke="#66828f" stroke-width="1.7"/>
+      <path d="M520 223C536 276 568 320 593 365C619 410 639 425 658 433" fill="none" stroke="#66828f" stroke-width="1.7"/>
+      <path d="M216 590C222 425 276 353 285 220C291 132 283 60 304-30M328 590C334 425 388 353 397 220C403 132 395 60 416-30" fill="none" stroke="#66828f" stroke-width="1.6" stroke-dasharray="14 15"/>
+      <path d="M483 374C503 323 513 270 509 220" fill="none" stroke="#66828f" stroke-width="1.4" stroke-dasharray="7 9"/>
+      <path d="M490 337 516 356M493 320 506 330M493 304 501 310" fill="none" stroke="#66828f" stroke-opacity=".5" stroke-width="1.2"/>
+      <path d="M122 527 134 531M126 499 138 503M131 471 143 475M138 443 150 447M147 415 159 419M157 387 169 391" stroke="#66828f" stroke-opacity=".35" stroke-width="1.2"/>
+      <path d="M361 520V499M354 508 361 499 368 508" fill="none" stroke="#66828f" stroke-opacity=".45" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M229 92 232 72M224 80 232 72 237 82" fill="none" stroke="#66828f" stroke-opacity=".45" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <g class="scene-layer scene-layer-planning">
+      <path d="M275 585C275 541 279 491 286 452C295 398 309 360 297 321C285 282 247 275 246 228C245 172 270 108 276 52C280 20 283-6 287-30" fill="none" stroke="#69edcc" stroke-opacity=".085" stroke-width="29"/>
+      <path d="M275 585C275 541 279 491 286 452C295 398 309 360 297 321C285 282 247 275 246 228C245 172 270 108 276 52C280 20 283-6 287-30" fill="none" stroke="#69edcc" stroke-width="2.8" stroke-linecap="round"/>
+      <path d="M268 63 276 50 281 65" fill="#69edcc"/>
+      <path d="M238 227 246 214 253 228" fill="#69edcc"/>
+      <circle cx="297" cy="321" r="3.5" fill="#152f40" stroke="#69edcc" stroke-width="1.3"/>
+      <circle cx="275" cy="117" r="3.5" fill="#152f40" stroke="#69edcc" stroke-width="1.3"/>
+      <path d="M77 110H180L263 118" fill="none" stroke="#69edcc" stroke-opacity=".65" stroke-width=".85"/>
+      <text x="27" y="101" fill="#69edcc" font-family="'Source Sans 3',system-ui,sans-serif" font-size="11" letter-spacing="1.2">PLANNED PATH</text>
+    </g>
+
+    <g class="scene-layer scene-layer-prediction" fill="none" stroke="#e8ba74" stroke-width="1.65" stroke-dasharray="5 7" stroke-linecap="round">
+      <path d="M330 135C333 80 327 38 337-30"/>
+      <path d="M194 284C207 241 222 197 225 150C227 101 225 67 232 23"/>
+      <path d="M505 355C481 316 454 282 448 241C441 196 451 144 452 99"/>
+      <path d="M437 245 448 233 457 247" stroke-dasharray="none" stroke-width="1.2"/>
+      <path d="M327 31 335 20 342 33" stroke-dasharray="none" stroke-width="1.2"/>
+      <path d="M217 83 227 73 234 86" stroke-dasharray="none" stroke-width="1.2"/>
+      <path d="M455 110 491 78H570" stroke-dasharray="none" stroke-width=".8" stroke-opacity=".75"/>
+      <text x="487" y="66" fill="#e8ba74" stroke="none" font-family="'Source Sans 3',system-ui,sans-serif" font-size="10.5" letter-spacing=".8">PREDICTION</text>
+    </g>
+
+    <!-- Detected road users and ego vehicle. -->
+    <g class="scene-vehicles">
+      <use href="#scene-car" transform="translate(330 135) rotate(3)" color="#cbd9df"/>
+      <use href="#scene-car" transform="translate(194 284) rotate(13)" color="#8da9b5"/>
+      <use href="#scene-car" transform="translate(505 355) rotate(-32)" color="#e8ba74"/>
+      <use href="#scene-car" transform="translate(286 452) rotate(9)" color="#69edcc"/>
+      <g transform="translate(286 452) rotate(9)">
+        <circle r="5.5" fill="#183441" stroke="#69edcc" stroke-width="1.3"/>
+        <circle r="1.5" fill="#69edcc"/>
+      </g>
+      <path d="M314 464 348 488H392" fill="none" stroke="#69edcc" stroke-width=".85"/>
+      <text x="354" y="504" fill="#69edcc" font-family="'Source Sans 3',system-ui,sans-serif" font-size="11" letter-spacing="1">EGO VEHICLE</text>
+    </g>
+
+    <g class="scene-layer scene-layer-perception">
+      <!-- Detection boxes closely follow the footprint of each road user. -->
+      <g fill="none" stroke="#69edcc" stroke-width="1.15">
+        <g transform="translate(330 135) rotate(3)">
+          <rect x="-31" y="-54" width="62" height="110" rx="1" stroke-opacity=".65"/>
+          <path d="M-31-42V-54H-19M19-54H31V-42M31 44V56H19M-19 56H-31V44" stroke-width="2"/>
+        </g>
+        <g transform="translate(194 284) rotate(13)">
+          <rect x="-31" y="-54" width="62" height="110" rx="1" stroke-opacity=".65"/>
+          <path d="M-31-42V-54H-19M19-54H31V-42M31 44V56H19M-19 56H-31V44" stroke-width="2"/>
+        </g>
+        <g transform="translate(505 355) rotate(-32)">
+          <rect x="-31" y="-54" width="62" height="110" rx="1" stroke-opacity=".65"/>
+          <path d="M-31-42V-54H-19M19-54H31V-42M31 44V56H19M-19 56H-31V44" stroke-width="2"/>
+        </g>
+      </g>
+      <g font-family="'Source Sans 3',system-ui,sans-serif" font-size="10" fill="#afc7d3" letter-spacing=".6">
+        <text x="300" y="68">VEHICLE 01</text>
+        <text x="167" y="217">VEHICLE 02</text>
+        <text x="514" y="290">VEHICLE 03</text>
+      </g>
+      <!-- Sparse illustrative point returns rather than numerical sensor claims. -->
+      <g fill="#69edcc" fill-opacity=".48">
+        <circle cx="144" cy="182" r="1.5"/><circle cx="151" cy="207" r="1.2"/><circle cx="136" cy="240" r="1.5"/>
+        <circle cx="124" cy="277" r="1.2"/><circle cx="116" cy="311" r="1.6"/><circle cx="145" cy="346" r="1.2"/>
+        <circle cx="159" cy="374" r="1.4"/><circle cx="165" cy="408" r="1.2"/><circle cx="178" cy="440" r="1.6"/>
+        <circle cx="208" cy="465" r="1.2"/><circle cx="231" cy="481" r="1.4"/><circle cx="347" cy="411" r="1.4"/>
+        <circle cx="373" cy="384" r="1.2"/><circle cx="397" cy="360" r="1.5"/><circle cx="414" cy="330" r="1.2"/>
+        <circle cx="427" cy="304" r="1.6"/><circle cx="432" cy="275" r="1.2"/><circle cx="419" cy="250" r="1.5"/>
+        <circle cx="405" cy="218" r="1.2"/><circle cx="393" cy="187" r="1.4"/><circle cx="375" cy="158" r="1.2"/>
+        <circle cx="360" cy="199" r="1.2"/><circle cx="312" cy="229" r="1.4"/><circle cx="282" cy="245" r="1.2"/>
+        <circle cx="239" cy="327" r="1.4"/><circle cx="221" cy="351" r="1.2"/><circle cx="227" cy="391" r="1.5"/>
+      </g>
+      <path d="M52 369H101L151 333" fill="none" stroke="#afc7d3" stroke-opacity=".6" stroke-width=".8"/>
+      <text x="27" y="389" fill="#afc7d3" font-family="'Source Sans 3',system-ui,sans-serif" font-size="10.5" letter-spacing="1">PERCEPTION</text>
+    </g>
+
+    <!-- Modest technical framing supports the editorial page aesthetic. -->
+    <g fill="none" stroke="#afc7d3" stroke-opacity=".3" stroke-width="1">
+      <path d="M20 45V20H45M575 20H600V45M600 515V540H575M45 540H20V515"/>
+      <path d="M38 493V466M33 472 38 466 43 472"/>
+    </g>
+    <text x="32" y="511" fill="#afc7d3" font-family="'Source Sans 3',system-ui,sans-serif" font-size="10" letter-spacing="1">BEV</text>
+  </g>
+</svg>
